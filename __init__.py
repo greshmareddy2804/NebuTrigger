@@ -40,7 +40,7 @@ def main(mytimer: func.TimerRequest) -> None:
     url ='https://celestrak.org/NORAD/elements/gp.php?SPECIAL=gpz&FORMAT=csv'
 
     # Replace 'your_connection_string_here' with your actual Azure Database for PostgreSQL connection string
-    connection_string = 'dbname='nebucyber' user='nebula@nebula-demo' host='nebula-demo.postgres.database.azure.com' password='Greshu@928' port='5432' sslmode='true''
+    connection_string = ''dbname='nebucyber' user='nebula@nebula-demo' host='nebula-demo.postgres.database.azure.com' password='Greshu@928' port='5432' sslmode='true''
 
     try:
         csv_data = fetch_csv_data(url)
