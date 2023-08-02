@@ -14,7 +14,7 @@ def insert_data_into_postgres(data, connection_string):
         cursor = conn.cursor()
 
         # Replace 'your_table_name' with the actual name of the table in your database
-        table_name = geopzo
+        table_name = 'geopzo'
 
         # Assuming the CSV has a header row. If not, set 'has_header' to False and manually provide column names.
         has_header = True
